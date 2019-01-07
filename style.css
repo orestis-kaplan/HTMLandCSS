@@ -1,45 +1,124 @@
 body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 25px;
-  overflow: hidden;
-  background-color: #333;
-}
-li{
-  float: left;
-  display: block;
-}
+
+/* Header bar*/
 .youtube_video{
   position: relative;
-  width: 560px;
-  height: 315px;
-  margin-left: 16%;
-  margin-right: auto;
+  width: 69%;
+  float: left;
+  height: 470px;
+  /*margin-left: 16%;
+  margin-right: auto;*/
   margin-top: 5%;
 }
-input{
-  -webkit-appearance: none;
--webkit-font-smoothing: antialiased;
-background-color: #f9f9f9;
-border: none;
-box-shadow: none;
-color: inherit;
-font-family: 'Roboto','Noto',sans-serif;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-margin-left: 4px;
-max-width: 100%;
-outline: none;
-text-align: inherit;
-width: 100%;
--ms-flex: 1 1 .000000001px;
--webkit-flex: 1;
-flex: 1;
--webkit-flex-basis: .000000001px;
-flex-basis: .000000001px;
+header{
+  display: block;
+  width: 100%;
+  height: 55px;
+  border-bottom:1px solid #ecf0f1 ;
+}
+header .search-form {
+    top: 2%;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-left: 22%;
+}
+header .search-form input {
+    width: 36%;
+    max-width: 562px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 0 2px 2px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bdc3c7;
+}
+.search-button{
+  height: 30px;
+  width: 70px;
+}
+/* Youtube Video*/
+/*@media screen and (min-width: 1024px){
+  .youtube_video {
+      width: 97%;
+      height: 360px;
+  }
+}
+@media screen and (min-width: 1440px){
+  .youtube_video {
+    height: 488px;
+  }
+}*/
+#margine{
+  margin-right: 12%;
+margin-left: 8%;
+}
+/* Side bar style */
+
+.sidebar {
+  float: right;
+}
+
+.next_autoplay {
+  height: 50px;
+  width: 100%;
+}
+
+.sidebar .next {
+  float: left;
+  width: 50%;
+}
+
+.sidebar .autoplay {
+  float: right;
+  width: 50%;
+}
+
+.sidebar .autoplay p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 17px;
+  margin-top: 18px;
+}
+
+.side-content {
+  height: 100px;
+  width: 100%;
+}
+
+.divider {
+  border-bottom: 1px solid #cccccc70;
+  height: 1px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.side-content .thumbnail {
+  float: left;
+  margin-right: 7px;
+}
+
+.side-content .title {
+  float: right;
+  width: 200px;
+}
+
+.side-content .title .main {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.side-content .title .owner, .side-content .title .comment {
+  color: gray;
+  font-size: 13px;
+  margin: 4px 0;
 }
