@@ -5,16 +5,14 @@ body {
     padding: 0;
 }
 
-/* Header bar*/
 .youtube_video{
   position: relative;
-  width: 69%;
+  width: 67%;
   float: left;
   height: 470px;
-  /*margin-left: 16%;
-  margin-right: auto;*/
   margin-top: 5%;
 }
+
 header{
   display: block;
   width: 100%;
@@ -42,23 +40,19 @@ header .search-form input {
   height: 30px;
   width: 70px;
 }
-/* Youtube Video*/
-/*@media screen and (min-width: 1024px){
-  .youtube_video {
-      width: 97%;
-      height: 360px;
-  }
+
+.top-right-icons{
+  float:right;
 }
-@media screen and (min-width: 1440px){
-  .youtube_video {
-    height: 488px;
-  }
-}*/
+
+.top-right-icons img{
+  padding:17px;
+}
+
 #margine{
   margin-right: 12%;
-margin-left: 8%;
+  margin-left: 8%;
 }
-/* Side bar style */
 
 .sidebar {
   float: right;
