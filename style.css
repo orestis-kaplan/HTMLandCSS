@@ -10,7 +10,6 @@ body {
   width: 70%;
   height: 470px;
   right: 38px;
-  top: -84px;
   display: inline-block;
 }
 
@@ -61,8 +60,23 @@ header .search-form input {
   width: 90%;
 }
 
+.video_buttons{
+  float: right;
+}
+
+.video_buttons a{
+  display: inline-block;
+  height: 20px;
+  width: 65px;
+}
+
+.video_buttons a span{
+  float: right;
+}
+
 .sidebar {
   display: inline-block;
+  margin-bottom: 63px;
 }
 
 .next_autoplay {
