@@ -77,10 +77,29 @@ header .search-form input {
   position: relative;
   bottom: 8px;
 }
-
+.video_details{
+  position: relative;
+  top: 90px;
+}
+.video_details img{
+  float: left;
+  border-radius: 50%;
+}
+.video_details_text{
+  clear: right;
+  padding-left: 105px;
+}
+.video_details_text button{
+  float: right;
+}
+.comment_container{
+  position: relative;
+  top: 156px;
+  left: -35px;
+}
 .sidebar {
   display: inline-block;
-  margin-bottom: 63px;
+  margin-bottom: 123px;
 }
 
 .next_autoplay {
