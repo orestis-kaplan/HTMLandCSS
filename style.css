@@ -73,6 +73,11 @@ header .search-form input {
   width: 31px;
   display: inline-block;
 }
+
+svg{
+    fill: #12121299;
+}
+
 .video_buttons a span{
   position: relative;
   bottom: 8px;
@@ -84,19 +89,62 @@ header .search-form input {
 .video_details img{
   float: left;
   border-radius: 50%;
+  height: 48px;
+  width: 48px;
 }
 .video_details_text{
   clear: right;
-  padding-left: 105px;
+  padding-left: 73px;
 }
+
 .video_details_text button{
   float: right;
 }
+
 .comment_container{
   position: relative;
   top: 156px;
   left: -35px;
 }
+
+.comment_info{
+  margin-bottom: 25px;
+}
+
+.comment_info span{
+  margin-right: 25px;
+}
+
+.btn-options{
+  color: #12121299;
+  text-decoration: none;
+}
+
+.user_comment{
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.user_comment img{
+  float: left;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.user_comment input{
+  margin-left: 15px;
+  width: 66%;
+  border-bottom: 2px solid grey;
+  outline: none;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  height: 29px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
 .sidebar {
   display: inline-block;
   margin-bottom: 123px;
