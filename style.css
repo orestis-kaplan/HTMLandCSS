@@ -145,6 +145,62 @@ svg{
   margin-top: 5px;
 }
 
+.comments{
+  margin-bottom: 31px;
+}
+
+.comments img{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+}
+
+.comment_date{
+  padding-left: 55px;
+}
+
+.comment_date p{
+  margin: 5px 0;
+}
+
+.comment_date a:nth-child(1){
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.comment_date a:nth-child(2){
+  text-decoration: none;
+  color: #12121299;
+  font-size: 14px;
+}
+
+.like_buttons{
+  padding-left: 55px;
+}
+
+.like_buttons a{
+  text-decoration: none;
+  color: #12121299;
+}
+
+.like_buttons  span{
+  padding: 0px 5px;
+  color: #12121299;
+}
+
+.like_buttons a:nth-last-child(1){
+  padding-left: 13px;
+
+}
+
+.comment_buttons{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
 .sidebar {
   display: inline-block;
   margin-bottom: 123px;
