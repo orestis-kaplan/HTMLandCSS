@@ -65,13 +65,17 @@ header .search-form input {
 }
 
 .video_buttons a{
-  display: inline-block;
-  height: 20px;
-  width: 65px;
+  text-decoration: none;
+  padding-left: 30px;
 }
-
+.svgs{
+  height: 27px;
+  width: 31px;
+  display: inline-block;
+}
 .video_buttons a span{
-  float: right;
+  position: relative;
+  bottom: 8px;
 }
 
 .sidebar {
