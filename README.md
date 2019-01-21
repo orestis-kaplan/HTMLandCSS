@@ -9,5 +9,5 @@ The main goal of this project is to improve the HTML and CSS skills recreating t
 * Media Queries
 ## Contributors
 
-[Orestis Kaplanis](https://github.com/userman95)
-[Efrain Pinto](https://github.com/efrapp)
+* [Orestis Kaplanis](https://github.com/userman95)
+* [Efrain Pinto](https://github.com/efrapp)
