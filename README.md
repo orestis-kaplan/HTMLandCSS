@@ -8,7 +8,3 @@ The main goal of this project is to improve the HTML and CSS skills recreating t
 * Positioned Elements
 * Media Queries
 
-## Contributors
-
-@userman95
-@efrapp
