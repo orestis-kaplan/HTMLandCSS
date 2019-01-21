@@ -1,0 +1,316 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.youtube_video{
+  position: relative;
+  width: 70%;
+  height: 470px;
+  right: 38px;
+  display: inline-block;
+}
+
+#youtube_content{
+  width:100%;
+  height:100%;
+}
+
+header{
+  display: block;
+  width: 100%;
+  height: 55px;
+  border-bottom:1px solid #ecf0f1 ;
+}
+header .search-form {
+    top: 2%;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-left: 22%;
+}
+header .search-form input {
+    width: 36%;
+    max-width: 562px;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 0 2px 2px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bdc3c7;
+}
+.search-button{
+  height: 30px;
+  width: 70px;
+}
+
+.top-right-icons{
+  float:right;
+}
+
+.top-right-icons img{
+  padding:17px;
+}
+
+#margine{
+  margin-left: 140px;
+  display: inline-block;
+  width: 90%;
+}
+
+.video_info{
+  overflow: hidden;
+}
+
+.video_info span{
+  color: #12121299;
+}
+
+.video_buttons{
+  float: right;
+}
+
+.video_buttons a{
+  text-decoration: none;
+  padding-left: 30px;
+}
+.svgs{
+  height: 27px;
+  width: 31px;
+  display: inline-block;
+}
+
+svg{
+    fill: #12121299;
+}
+
+.video_buttons a span{
+  position: relative;
+  bottom: 8px;
+}
+.video_details{
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+  padding-top: 9px;
+  position: relative;
+  top: 20px;
+}
+.video_details img{
+  float: left;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+.video_details_text{
+  clear: right;
+  padding-left: 73px;
+}
+
+.video_details_text a:nth-child(1){
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.video_details_text p:nth-child(3){
+  color: #12121299;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.video_details_text button{
+  border: none;
+  background-color: #ff0000;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 30px;
+}
+
+.video_details button span:nth-child(2){
+  color: #ffffffd9;
+}
+
+.comment_container{
+  position: relative;
+  top: 50px;
+  left: -35px;
+  width: 70%;
+}
+
+.comment_info{
+  margin-bottom: 25px;
+}
+
+.comment_info span{
+  margin-right: 25px;
+}
+
+.btn-options{
+  color: #12121299;
+  text-decoration: none;
+  font-size:15px;
+}
+
+.user_comment{
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.user_comment img{
+  float: left;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.user_comment input{
+  margin-left: 15px;
+  width: 94.9%;
+  border-bottom: 2px solid grey;
+  outline: none;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  height: 29px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.comments{
+  margin-bottom: 31px;
+}
+
+.comments img{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+}
+
+.comment_date{
+  padding-left: 55px;
+}
+
+.comment_date p{
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.comment_date a:nth-child(1){
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+
+.comment_date a:nth-child(2){
+  text-decoration: none;
+  color: #12121299;
+  font-size: 14px;
+}
+
+.like_buttons{
+  padding-left: 55px;
+}
+
+.like_buttons a{
+  text-decoration: none;
+  color: #12121299;
+  font-size: 15px;
+}
+
+.like_buttons  span{
+  padding: 0px 5px;
+  color: #12121299;
+}
+
+.like_buttons a:nth-last-child(1){
+  padding-left: 13px;
+
+}
+
+.comment_buttons{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.sidebar {
+  display: inline-block;
+  margin-bottom: 150px;
+}
+
+.next_autoplay {
+  height: 50px;
+  width: 100%;
+}
+
+.sidebar .next {
+  float: left;
+  width: 50%;
+}
+
+.sidebar .autoplay {
+  float: right;
+  width: 50%;
+}
+
+.sidebar .autoplay p {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 17px;
+  margin-top: 18px;
+}
+
+.side-content {
+  height: 100px;
+  width: 100%;
+}
+
+.divider {
+  border-bottom: 1px solid #cccccc70;
+  height: 1px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.side-content .thumbnail {
+  float: left;
+  margin-right: 7px;
+}
+
+.side-content .title {
+  float: right;
+  width: 200px;
+}
+
+.side-content .title .main {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.side-content .title .owner, .side-content .title .comment {
+  color: gray;
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+@media screen and (max-width:1440px) {
+  .user_comment input{
+    width: 82%;
+    }
+  .youtube_video{
+        width: 62%;
+  }
+}
