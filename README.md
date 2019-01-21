@@ -7,4 +7,7 @@ The main goal of this project is to improve the HTML and CSS skills recreating t
 * Floating Elements
 * Positioned Elements
 * Media Queries
+## Contributors
 
+[userman95](https://github.com/userman95)
+[efrapp](https://github.com/efrapp)
